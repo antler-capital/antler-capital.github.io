@@ -198,7 +198,7 @@ article h2 {
 	
 	.georges-col {
 		height: auto;
-		background: #24354E;
+		background: #ccc;
 		text-align: center;
 	}
 	
@@ -266,4 +266,8 @@ article h2 {
 
 .navbar-default .navbar-nav>li>a {
 		color: #727F88;
+}
+
+.bg-light-grey {
+	background: #ccc;
 }
