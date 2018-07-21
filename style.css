@@ -155,7 +155,7 @@ h3 {
 
 #profile {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 90%;
 	position:absolute;
 	bottom:0;
 	right: 0;
@@ -270,4 +270,8 @@ article h2 {
 
 .bg-light-grey {
 	background: #ccc;
+}
+
+div.eq-height.bg-white {
+	background: #fff;
 }
