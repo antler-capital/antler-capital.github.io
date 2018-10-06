@@ -133,6 +133,10 @@ h3 {
 	color: #24354E;
 }
 
+.white-text {
+	color: #fff;
+}
+
 .navbar {
 	background: rgba(0, 0, 0, 0);
 	border: none;
@@ -160,6 +164,7 @@ h3 {
 	bottom:0;
 	right: 0;
 	padding: 0px 10px;
+	max-width: 200px;
 }
 
 #logo {
@@ -185,6 +190,10 @@ article h2 {
 	letter-spacing: .1em;
 	line-height: 1.9em;
 	text-transform: uppercase;
+	color: #fff;
+}
+
+#disclosure h2 {
 	color: #24354E;
 }
 
