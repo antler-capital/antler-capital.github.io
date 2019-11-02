@@ -33,7 +33,7 @@ body {
 }
 
 #home {
-      background-image: url("clouds.jpg");
+      background-image: url("walls.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -133,6 +133,10 @@ h3 {
 	color: #24354E;
 }
 
+.white-text {
+	color: #fff;
+}
+
 .navbar {
 	background: rgba(0, 0, 0, 0);
 	border: none;
@@ -143,10 +147,6 @@ h3 {
 	margin: 0;
 }
 
-#profile {
-	max-width: 100%;
-	max-height: 100%;
-}
 
 .center {
 	text-align: center;
@@ -158,8 +158,13 @@ h3 {
 }
 
 #profile {
+	max-width: 100%;
+	max-height: 90%;
 	position:absolute;
 	bottom:0;
+	right: 0;
+	padding: 0px 10px;
+	max-width: 200px;
 }
 
 #logo {
@@ -185,6 +190,10 @@ article h2 {
 	letter-spacing: .1em;
 	line-height: 1.9em;
 	text-transform: uppercase;
+	color: #fff;
+}
+
+#disclosure h2 {
 	color: #24354E;
 }
 
@@ -198,7 +207,6 @@ article h2 {
 	
 	.georges-col {
 		height: auto;
-		background: #ccc;
 		text-align: center;
 	}
 	
@@ -214,7 +222,6 @@ article h2 {
 	
 	.eq-height {
 		margin: 30px;
-		background: #24354E;
 	}
 }
 
@@ -270,4 +277,48 @@ article h2 {
 
 .bg-light-grey {
 	background: #ccc;
+}
+
+div.eq-height.bg-white {
+	background: #fff;
+}
+
+#news {
+	padding: 0px 30px;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+.ant_table table tr td:nth-child(2) td:nth-child(3){
+	text-align: right!important;
+}
+
+table {
+    border: 1px solid #CCC;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    border-spacing: 5px;
+    padding: 0px 5px;
+}
+
+.spaced-td {
+	padding: 5px 5px !important;
 }
