@@ -302,3 +302,23 @@ div.eq-height.bg-white {
 .navbar-right {
   float: right!important;
 }
+
+.ant_table table tr td:nth-child(2) td:nth-child(3){
+	text-align: right!important;
+}
+
+table {
+    border: 1px solid #CCC;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    border-spacing: 5px;
+    padding: 0px 5px;
+}
+
+.spaced-td {
+	padding: 5px 5px !important;
+}
